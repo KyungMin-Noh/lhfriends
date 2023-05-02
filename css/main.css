@@ -34,7 +34,11 @@
 .con02 .service{float: left; width: 1280px; height: 136px; margin-top: 40px;}
 .con02 .service .tit{float: left;}
 .con02 .service .tit p{font-size: 28px;}
-.con02 .service .link{float: right; width: 1000px; height: 134px; border: 1px solid #e1e1e1;}
+.con02 .service .link{float: right; width: 1090px;  height: 134px;}
+.con02 .service .link ul {float: left;  width: 120px;  border: 1px solid #e1e1e1;  margin-right: 16px;  padding: 10px;}
+.con02 .service .link ul:last-child {margin-right: 0px;}
+
+.con02 .service .link ul li {text-align: center;}
 
 .con03{width: 1280px; height: 436px; margin: 0 auto; background: #888;}
 .con04{width: 1280px; height: 1050px; margin: 0 auto; background: #777;}
