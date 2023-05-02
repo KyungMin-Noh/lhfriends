@@ -4,7 +4,7 @@
 #nav{width: 1920px; height: 80px; background: #fff;}
 #visual{width: 1920px; height: 400px; background:gray;}
 #contents01{width: 1920px; height: 150px; background: #fff;}
-#contents02{width: 1920px; height: 350px; background: #eee;}
+#contents02{width: 1920px; height: 218px; background: #fff;}
 #contents03{width: 1920px; height: 436px; background: #fafafa;}
 #contents04{width: 1920px; height: 1050px; background: #fff;}
 #footer{ width: 1920px; height: 150px; background: #fafafa;}
@@ -22,13 +22,20 @@
 .gnb .menu{float:right;}
 .gnb .menu ul{font-size: 18px; float: left; padding-left: 60px; line-height: 80px;}
 
-.con01{width: 1280px; height: 150px; margin: 0 auto; background: #888;}
-.con01 .tit{float: left; width: 1280px; height: 150px; font-size: 28px;}
-.con01 .notice{float: left; width: 1280px; height: 150px;}
-.con01 .notice .list{float: left; width: 730px; height: 110px; border: 1px solid #e1e1e1;}
-.con01 .notice .info{float: left; width: 286px; height: 110px; border: 1px solid #e1e1e1;}
+.con01{width: 1280px; height: 150px; margin: 0 auto; }
+.con01 .notice{float: left; width: 920px; height: 110px; margin-top: 40px;}
+.con01 .notice .tit{float: left; }
+.con01 .notice .tit p{font-size: 28px;}
+.con01 .notice .tit button{float: left; border: 1px solid #e1e1e1; margin-top: 20px; background-color: #fff; padding: 2px; }
+.con01 .notice .list{float: right; width: 730px; height: 108px; border: 1px solid #e1e1e1;}
+.con01 .info{float: right; width: 284px;  height: 108px;  border: 1px solid #e1e1e1;  margin-top: 40px;}
 
-.con02{width: 1280px; height: 350px; margin: 0 auto; background: #777;}
+.con02{width: 1280px; height: 218px; margin: 0 auto; }
+.con02 .service{float: left; width: 1280px; height: 136px; margin-top: 40px;}
+.con02 .service .tit{float: left;}
+.con02 .service .tit p{font-size: 28px;}
+.con02 .service .link{float: right; width: 1000px; height: 134px; border: 1px solid #e1e1e1;}
+
 .con03{width: 1280px; height: 436px; margin: 0 auto; background: #888;}
 .con04{width: 1280px; height: 1050px; margin: 0 auto; background: #777;}
 .footer_wrap{width: 1280px; height: 150px; margin: 0 auto; background: #888;}
