@@ -1,8 +1,35 @@
-#wrap{width: 1920px; margin: 0 auto; }
-#header{ }
-#visual{ }
-#contents01{ }
-#contents02{ }
-#contents03{ }
-#contents04{ }
-#footer{ }
+#wrap{width: 1920px;  margin: 0 auto; }
+
+#header{width: 1920px; height: 40px; background: #fafafa;}
+#nav{width: 1920px; height: 80px; background: #fff;}
+#visual{width: 1920px; height: 400px; background:gray;}
+#contents01{width: 1920px; height: 150px; background: #fff;}
+#contents02{width: 1920px; height: 350px; background: #eee;}
+#contents03{width: 1920px; height: 436px; background: #fafafa;}
+#contents04{width: 1920px; height: 1050px; background: #fff;}
+#footer{ width: 1920px; height: 150px; background: #fafafa;}
+
+
+.top_menu{width: 1280px; height: 40px; margin: 0 auto;}
+.top_left{float: left; }
+.top_left a{float: left; padding-right: 20px; line-height: 40px; color: #666;}
+.top_right{float: right; }
+.top_right a{float: left; padding-left: 20px; line-height: 40px; color: #666;}
+
+.gnb{width: 1280px; height: 80px; margin: 0 auto;}
+.gnb a{width: 200px; height: 40px;}
+.gnb a img{padding-top: 20px; float:left;}
+.gnb .menu{float:right;}
+.gnb .menu ul{font-size: 18px; float: left; padding-left: 60px; line-height: 80px;}
+
+.con01{width: 1280px; height: 150px; margin: 0 auto; background: #888;}
+.con01 .tit{float: left; width: 1280px; height: 150px; font-size: 28px;}
+.con01 .notice{float: left; width: 1280px; height: 150px;}
+.con01 .notice .list{float: left; width: 730px; height: 110px; border: 1px solid #e1e1e1;}
+.con01 .notice .info{float: left; width: 286px; height: 110px; border: 1px solid #e1e1e1;}
+
+.con02{width: 1280px; height: 350px; margin: 0 auto; background: #777;}
+.con03{width: 1280px; height: 436px; margin: 0 auto; background: #888;}
+.con04{width: 1280px; height: 1050px; margin: 0 auto; background: #777;}
+.footer_wrap{width: 1280px; height: 150px; margin: 0 auto; background: #888;}
+
