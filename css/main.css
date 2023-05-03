@@ -96,6 +96,100 @@
 
 
 
-.con04{width: 1280px; height: 1050px; margin: 0 auto; background: #777;}
-.footer_wrap{width: 1280px; height: 150px; margin: 0 auto; background: #888;}
+.con04{
+    width: 1280px;
+    height: 852px; 
+    margin: 0 auto;
+}
+.con04 .tit{
+    padding-top: 40px; 
+    font-size: 28px; 
+    text-align: center; 
+}
+
+.con04 .shopping{
+    padding-top: 40px; 
+    width: 1080px;
+    height: 852px; 
+    margin: 0 auto;
+}
+.con04 .shopping .shop_list {
+    height: 852px; 
+    float: left;
+}
+.con04 .shopping .shop_list .list{
+    height: 282px; 
+    border: 1px solid #e1e1e1;
+}
+
+.con04 .shopping .shop_list .list{ 
+    border-right:0;
+}
+.con04 .shopping .shop_list .list ul {
+    padding: 16px;
+    background: #fff;
+    float: left;
+    border-right: 1px solid #e1e1e1;
+}
+.con04 .shopping .shop_list .list:nth-child(1){
+    border-bottom: 0;
+}
+.con04 .shopping .shop_list .list:nth-child(2){
+    border-bottom: 0;
+}
+
+.con04 .shopping .shop_list .list ul .shop_img{
+    width: 200px;
+    height: 200px;
+}
+.con04 .shopping .shop_list .list ul li{
+    width: 200px;
+    height: 50px;
+}
+.con04 .shopping .shop_list .list ul li span{
+    line-height: 50px;
+}
+
+
+/* shop_ban */
+.con04 .shopping .shop_ban{
+    width: 340px;
+    height: 852px;
+    float: right;
+}
+.con04 .shopping .shop_ban ul{ 
+    width:340px;
+    height: 270px;
+    margin-bottom:20px;
+}
+.con04 .shopping .shop_ban ul:last-child{ 
+    padding-bottom:0;
+}
+.con04 .shopping .shop_ban ul .copy{ 
+    width:340px;
+    height: 60px;
+    padding: 8px 10px;    
+    color: #fff;
+}
+.con04 .shopping .shop_ban ul .copy p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.con04 .shopping .shop_ban ul:nth-child(1){
+    background:#4caf50 ;
+}
+.con04 .shopping .shop_ban ul:nth-child(2){
+    background:#db2f21 ;
+}
+.con04 .shopping .shop_ban ul:nth-child(3){
+    background:#555555 ;
+}
+
+.footer_wrap{
+    width: 1280px;
+    height: 150px;
+    margin: 0 auto;
+    background: #888;
+}
 
