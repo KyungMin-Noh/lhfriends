@@ -3,7 +3,7 @@
 /* 전체 레이아웃 */
 #header_top{width: 1920px; height: 40px; background: #fafafa; border-bottom: 1px solid #e1e1e1;}
 #header_nav{width: 1920px; height: 80px; background: #fff; border-bottom: 1px solid #e1e1e1;}
-#banner{width: 1920px; height: 400px; background:gray;}
+#banner{ background:gray;}
 #content1{width: 1920px; height: 150px; background: #fff;}
 #content2{width: 1920px; height: 218px; background: #fff;}
 #content3{width: 1920px; height: 480px; background: #fafafa;}
@@ -29,12 +29,23 @@
 .gnb ul{font-weight: bold; font-size: 18px; float: left; padding-left: 80px; line-height: 80px;}
 
 
+/* 배너 */
+.ban{position: relative; top: 0; width: 1920px; height: 400px; }
+.ban a.prev{position: absolute; top: 150px; left:200px; width: 20px; height: 40px;  background: url(../images/pre_arrow.png)}
+.ban a.next{position: absolute; top: 150px; right:200px; width: 20px; height: 40px; background: url(../images/next_arrow.png)}
+
+.ban ul{width: 1920px; height: 400px; overflow: hidden; }
+.ban ul li{float: left;}
+.ban ul li.ban_img1{text-align: left;}
+.ban ul li.ban_img2{text-align: center;}
+.ban ul li.ban_img3{text-align: right;}
+
+
 /* 컨텐츠1 */
 .notice{ float: left; width: 920px; height: 110px; margin-top: 40px; }
 .notice .tit{ float: left; }
 .notice .tit p{font-weight: bold; font-size: 28px;}
 .notice .tit button{ float: left; border: 1px solid #e1e1e1; margin-top: 20px; background-color: #fff; padding: 2px; }
-
 .notice .list{float: right;  width: 730px; height: 110px; border: 1px solid #e1e1e1;}
 .notice .list ul{ width: 690px; height: 94px; margin: 0 auto; padding-top: 16px;}
 .notice .list ul li {padding-bottom: 8px; }
@@ -57,22 +68,23 @@
 .service_link ul li {text-align: center;}
 
 
-.pre_arrow{float: left; line-height: 340px; padding-top: 90px;}
-.next_arrow{float: right; line-height: 340px; padding-top: 90px;}
-
-
-.market_link{ width: 1080px; height: 500px;  background: #fafafa;  margin: 0 auto;}
+.market_link{ width: 1280px; background: #fafafa;  margin: 0 auto;}
 .market_link .tit{ padding-top: 40px; }
 .market_link .tit p{ font-weight: bold; font-size: 28px; text-align: center;}
 
-.market_link .link{ width: 1080px; height: 300px; padding-top: 40px; margin: 0 auto;}
-.market_link .link ul{ margin-right: 36px; float: left;  width: 336px;  height: 300px;}
-.market_link .link ul:last-child{ margin-right: 0; float: right;}
+.market_link .link{ position: relative; padding-top: 40px; }
+.market_link .link a.prev{position: absolute; left: 0; top: 150px ; width: 20px; height: 40px;  background: url(../images/pre_arrow.png) }
+.market_link .link a.next{position: absolute; right: 0; top: 150px ; width: 20px; height: 40px;  background: url(../images/next_arrow.png) }
 
-.market_link .link ul .market_img { width: 336px; height: 250px; border: 1px solid #e1e1e1;}
-.market_link .link ul .market_img img { width: 336px; height: 250px;}
-.market_link .link ul .copy{ width: 336px; height: 50px; line-height: 50px; background: #fff; border: 1px solid #e1e1e1;  border-top: 0;}
-.market_link .link ul .copy span{ padding: 8px 10px;  font-size: 18px; font-weight: bold;}
+.market_link .link .market_img{width: 1080px; height: 300px; margin: 0 auto;}
+.market_link .link .market_img ul{float: left; width: 328px; height: 300px; margin-right:48px; }
+.market_link .link .market_img ul:last-child{margin-right:0; }
+
+.market_link .link .market_img ul li{float: left;}
+.market_link .link .market_img ul li img{float: left; width: 328px; height: 250px; border: 1px solid #e1e1e1; border-bottom: 0;}
+
+.market_link .link .market_img ul .copy { width: 328px; height: 50px; border: 1px solid #e1e1e1; }
+.market_link .link .market_img ul .copy span{padding-left: 16px;  font-size: 18px; font-weight: bold; line-height: 50px;}
 
 
 /* shopping */
