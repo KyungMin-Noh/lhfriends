@@ -73,8 +73,8 @@
 .market_link .tit p{ font-weight: bold; font-size: 28px; text-align: center;}
 
 .market_link .link{ position: relative; padding-top: 40px; }
-.market_link .link a.prev{position: absolute; left: 0; top: 150px ; width: 20px; height: 40px;  background: url(../images/pre_arrow.png) }
-.market_link .link a.next{position: absolute; right: 0; top: 150px ; width: 20px; height: 40px;  background: url(../images/next_arrow.png) }
+.market_link .link a.prev{position: absolute; left: 0; top: 200px ; width: 20px; height: 40px;  background: url(../images/pre_arrow.png) }
+.market_link .link a.next{position: absolute; right: 0; top: 200px ; width: 20px; height: 40px;  background: url(../images/next_arrow.png) }
 
 .market_link .link .market_img{width: 1080px; height: 300px; margin: 0 auto;}
 .market_link .link .market_img ul{float: left; width: 328px; height: 300px; margin-right:48px; }
