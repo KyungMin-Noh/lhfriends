@@ -48,8 +48,9 @@
 .notice .tit button{ float: left; border: 1px solid #e1e1e1; margin-top: 20px; background-color: #fff; padding: 2px; }
 .notice .list{float: right;  width: 730px; height: 110px; border: 1px solid #e1e1e1;}
 .notice .list ul{ width: 690px; height: 94px; margin: 0 auto; padding-top: 16px;}
-.notice .list ul li {padding-bottom: 8px; }
-.notice .list ul li span {color:#333; font-weight: bold;}
+.notice .list ul li {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-bottom: 8px;}
+.notice .list ul li a{width: 400px; overflow: hidden; text-overflow: ellipsis; float: left;}
+.notice .list ul li span {float:right; color:#333; width: 70px;}
 
 .info{float: right; width: 284px;  height: 110px;  border: 1px solid #e1e1e1;  margin-top: 40px;}
 .info ul{width: 244px; height: 90px; margin: 0 auto; padding-top: 16px;}
@@ -73,8 +74,8 @@
 .market_link .tit p{ font-weight: bold; font-size: 28px; text-align: center;}
 
 .market_link .link{ position: relative; padding-top: 40px; }
-.market_link .link a.prev{position: absolute; left: 0; top: 200px ; width: 20px; height: 40px;  background: url(../images/pre_arrow.png) }
-.market_link .link a.next{position: absolute; right: 0; top: 200px ; width: 20px; height: 40px;  background: url(../images/next_arrow.png) }
+.market_link .link a.prev{position: absolute; left: 0; top: 160px ; width: 20px; height: 40px;  background: url(../images/pre_arrow.png) }
+.market_link .link a.next{position: absolute; right: 0; top: 160px ; width: 20px; height: 40px;  background: url(../images/next_arrow.png) }
 
 .market_link .link .market_img{width: 1080px; height: 300px; margin: 0 auto;}
 .market_link .link .market_img ul{float: left; width: 328px; height: 300px; margin-right:48px; }
@@ -83,8 +84,8 @@
 .market_link .link .market_img ul li{float: left;}
 .market_link .link .market_img ul li img{float: left; width: 328px; height: 250px; border: 1px solid #e1e1e1; border-bottom: 0;}
 
-.market_link .link .market_img ul .copy { width: 328px; height: 50px; border: 1px solid #e1e1e1; }
-.market_link .link .market_img ul .copy span{padding-left: 16px;  font-size: 18px; font-weight: bold; line-height: 50px;}
+.market_link .link .market_img ul .copy {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 328px; height: 50px; border: 1px solid #e1e1e1; }
+.market_link .link .market_img ul .copy span{ padding-left: 16px;  font-size: 18px; font-weight: bold; line-height: 50px;}
 
 
 /* shopping */
@@ -106,7 +107,7 @@
 .shopping .shop_ban{width: 340px; height: 852px; float: right;}
 .shopping .shop_ban ul{ width:340px; height: 270px; margin-bottom:20px;}
 .shopping .shop_ban ul:last-child{ padding-bottom:0;}
-.shopping .shop_ban ul .copy{ width:340px; height: 60px; padding: 8px 10px; color: #fff;}
+.shopping .shop_ban ul .copy{overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width:340px; height: 60px; padding: 8px 10px; color: #fff;}
 .shopping .shop_ban ul .copy p{font-size: 18px; font-weight: bold;}
 .shopping .shop_ban ul:nth-child(1){background:#4caf50 ;}
 .shopping .shop_ban ul:nth-child(2){background:#db2f21 ;}
