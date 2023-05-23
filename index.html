@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-
     <title>lhfriends</title>
 </head>
 <body>
@@ -15,19 +16,18 @@
         <div id="header">
             <div id="header_top">
                 <div class="container">
-                    <div class="top_left">
-                        <a href="/">재능등록</a>
-                        <a href="/">물품등록</a>
-                    </div>
-                    <div class="top_right">
-                        <a href="/">로그인</a>
-                        <a href="/">회원가입</a>
-                        <a href="/">고객센터</a>
-                        <a href="/">검색</a>
-                    </div>
+                    <ul class="top_left">
+                        <li><a href="/">재능등록</a></li>
+                        <li><a href="/">물품등록</a></li>
+                    </ul>
+                    <ul class="top_right">
+                        <li><a href="/">로그인</a></li>
+                        <li><a href="/">회원가입</a></li>
+                        <li><a href="/">고객센터</a></li>
+                        <li><a href="/"><img src="images/search_ico.png" alt=""></a></li>
+                    </ul>
                 </div>
             </div>
-                
             
             <div id="header_nav">
                 <div class="container">
@@ -46,18 +46,49 @@
             </div>
         </div>
         
-        <div id="banner">
-            <div class="ban">
-                <a href="/" class="prev"><span class="ir_pm">이전 이미지</span></a>
+        
+        <div id="quick_menu">
+            <div class="box">
                 <ul>
-                    <li class="ban_img1"><a href="/"><img src="images/visual01.png" alt="banner"></a></li>
-                    <li class="ban_img2"><a href="/"><img src="images/visual01.png" alt="banner"></a></li>
-                    <li class="ban_img3"><a href="/"><img src="images/visual01.png" alt="banner"></a></li>
-                </ul>
-                <a href="/"class="next"><span class="ir_pm">다음 이미지</span></a>
+                    <li class="quick_ban">
+                        <a href=""><img src="images/main_quick_ban01.png" alt=""></a>
+                    </li>
+                    <li class="quick_logo">
+                        <a href=""><img src="images/main_quick_logo.png" alt=""></a>
+                        <span>LH친구 소개</span>
+                    </li>
+                    <li class="quick_point">
+                        <a href=""><img src="images/main_quick_point.png" alt=""></a>
+                        <span>포인트</span>
+                    </li>
+                    <li class="quick_cart">
+                        <a href=""><img src="images/main_quick_cart.png" alt=""></a>
+                        <span>찜목록</span>
+                    </li>
+                    <li class="quick_top">
+                        <a href=""><img src="images/top_arrow.png" alt=""></a>
+                        <span>TOP</span>
+                    </li>
+                </ul> 
             </div>
         </div>
-
+        
+        
+        <div id="banner">
+            <div class="ban">                
+                <div>
+                    <a href=""><img src="images/ban01.png"></a>
+                </div>
+                <div>
+                    <a href=""><img src="images/ban02.png"></a>
+                </div>
+                <div>
+                    <a href=""><img src="images/ban03.png"></a>
+                </div>
+            </div>
+        </div>
+        
+        
         <div id="contents">
             <div id="content1">
                 <div class="container">
@@ -70,7 +101,7 @@
                         </div>
                         <div class="list">
                             <ul>
-                                <li><a href="">[이벤트]내친구 런칭1주년 기념 돌잔치 이벤트121212dfdffdfdfdf12(12.1~12.31)</a><span>2019.12.31</span></li>
+                                <li><a href="">[이벤트]내친구 런칭1주년 기념 돌잔치 이벤트(12.1~12.31)</a><span>2019.12.31</span></li>
                                 <li><a href="">[공지] 서버 점검 완료 및 서비스 정상화 안내</a><span>2019.12.31</span></li>
                                 <li><a href="">[공지]LH친구 가입하고 임대료 할인 받으세요!</a><span>2019.12.31</span></li>                                   
                             </ul>
@@ -86,7 +117,8 @@
                     </div>
                 </div>
             </div>
-
+            
+            
             <!-- content2 -->
             <div id="content2">
                 <div class="container">
@@ -171,7 +203,7 @@
             </div>
 
 
-            <!-- content4 -->
+            <!-- content4 --> 
             <div id="content4">
                 <div class="container">
                     <div class="shopping">
@@ -297,11 +329,10 @@
                         
                     </div>
                 </div>
-            </div>           
+            </div>    
         </div>
         
-       
-        
+        <!-- site -->
         <div id="site">
             <div class="container">
                 <div class="site_link">
@@ -331,6 +362,8 @@
                 
             </div>
         </div>
+
+        <!-- footer -->
         <div id="footer">
             <div id="footer_nav">
                 <div class="container">
@@ -375,5 +408,26 @@
             </div>
         </div>
     </div>
+    
+
+
+    <!-- script -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+       
+        $('.ban').slick({
+            dots: true,
+            infinite: true,
+            autoplay: true,
+            autoplayspeed: 1000,
+            slidesToShow: 1,
+            adaptiveHeight: true
+        });
+
+    </script> 
+    
 </body>
 </html>
